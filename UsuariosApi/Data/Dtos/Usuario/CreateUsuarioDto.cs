@@ -19,6 +19,8 @@ namespace UsuariosApi.Data.Dtos.Usuario
         [Required]
         [Compare("Password")]
         public string RePassword { get; set; }
+        [Required]
+        public DateTime DataNascimento { get; set; }
 
     }
 }
